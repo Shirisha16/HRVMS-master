@@ -1,0 +1,426 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
+<LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:padding="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="90"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:layout_weight="30"
+                    android:text="From">
+
+                </TextView>
+
+                <TextView
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:layout_weight="10"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text=":"></TextView>
+
+
+                <TextView
+                    android:id="@+id/SelectFromDate"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="50"
+                    android:textStyle="bold"
+                    android:text="Select From Date"></TextView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:padding="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="90"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:layout_weight="30"
+
+                    android:text="To"></TextView>
+
+                <TextView
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:layout_weight="10"
+
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text=":"></TextView>
+
+
+                <TextView
+                    android:id="@+id/SelectToDate"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="50"
+                    android:textStyle="bold"
+                    android:text="Select To Date"></TextView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:padding="2dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:weightSum="2"
+                android:orientation="horizontal">
+
+                <RadioGroup
+                    android:id="@+id/radioGroup"
+                    android:layout_width="match_parent"
+                    android:orientation="horizontal"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:layout_height="wrap_content">
+
+                    <RadioButton
+                        android:id="@+id/DetailRadioButton"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="10dp"
+                        android:layout_weight="1"
+                        android:paddingLeft="10dp"
+                        app:buttonTint="@color/appColour"
+                        android:text="Detail (Daywise Entry)">
+
+                    </RadioButton>
+                    <RadioButton
+                        android:id="@+id/SummaryRadioButton"
+                        android:padding="10dp"
+                        android:paddingLeft="10dp"
+                        android:layout_weight="1"
+                        app:buttonTint="@color/appColour"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Summary (Manual Entry)">
+
+                    </RadioButton>
+                </RadioGroup>
+            </LinearLayout>
+
+            <LinearLayout
+                android:padding="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:gravity="end"
+                android:layout_margin="5dp"
+                android:orientation="horizontal">
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Next"
+                    android:background="@drawable/button_background"
+                    android:textColor="@color/white"
+                    android:id="@+id/next"
+                    >
+
+                </Button>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/DaywiseDateLayout"
+                android:padding="2dp"
+                android:weightSum="90"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:layout_weight="30"
+                    android:text="Date"></TextView>
+
+                <TextView
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:layout_weight="10"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text=":"></TextView>
+
+
+                <TextView
+                    android:id="@+id/SelectedDate"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="50"
+                    android:text="2019-11-30"></TextView>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/TotalInfoLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="7"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:padding="2dp"
+                    android:layout_weight="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:weightSum="90"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/black"
+                        android:textStyle="bold"
+                        android:layout_weight="30"
+                        android:text="Work Location"></TextView>
+
+                    <TextView
+                        android:textColor="@color/black"
+                        android:textStyle="bold"
+                        android:layout_weight="10"
+
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:text=":"></TextView>
+
+
+                    <EditText
+                        android:id="@+id/WorkLocation"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="50"
+                        android:digits="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ "
+                        ></EditText>
+
+
+
+                </LinearLayout>
+                <LinearLayout
+                    android:padding="2dp"
+                    android:layout_weight="1"
+                    android:weightSum="90"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/black"
+                        android:textStyle="bold"
+                        android:layout_weight="30"
+                        android:text="Client Manager"></TextView>
+
+                    <TextView
+                        android:textColor="@color/black"
+                        android:textStyle="bold"
+                        android:layout_weight="10"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:text=":"></TextView>
+
+
+                    <EditText
+                        android:id="@+id/ClientManager"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="50"
+                        android:digits="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ "
+                        ></EditText>
+
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:padding="2dp"
+                    android:layout_weight="1"
+                    android:weightSum="90"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/black"
+                        android:textStyle="bold"
+                        android:layout_weight="30"
+                        android:text="CST Manager"></TextView>
+
+                    <TextView
+                        android:textColor="@color/black"
+                        android:textStyle="bold"
+                        android:layout_weight="10"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:text=":"></TextView>
+
+
+                    <EditText
+                        android:id="@+id/CSTManager"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="50"
+                        android:digits="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ "
+                        ></EditText>
+
+
+
+                </LinearLayout>
+                <LinearLayout
+                    android:padding="2dp"
+                    android:layout_weight="1"
+                    android:weightSum="90"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/black"
+                        android:textStyle="bold"
+                        android:layout_weight="30"
+                        android:text="Project Name"></TextView>
+
+                    <TextView
+                        android:textColor="@color/black"
+                        android:textStyle="bold"
+                        android:layout_weight="10"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:text=":"></TextView>
+
+
+                    <EditText
+                        android:id="@+id/ProjectName"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="50"
+                        android:digits="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ "
+                        ></EditText>
+
+
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:padding="2dp"
+                    android:layout_weight="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:weightSum="90"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/black"
+                        android:textStyle="bold"
+                        android:layout_weight="30"
+                        android:text="Task Description"></TextView>
+
+                    <TextView
+                        android:textColor="@color/black"
+                        android:textStyle="bold"
+                        android:layout_weight="10"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:text=":"></TextView>
+
+
+                    <EditText
+                        android:id="@+id/TaskDescription"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="50"
+                        ></EditText>
+
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:padding="2dp"
+                    android:layout_weight="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:weightSum="90"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/black"
+                        android:textStyle="bold"
+                        android:layout_weight="30"
+                        android:text="Worked Hours"></TextView>
+
+                    <TextView
+                        android:textColor="@color/black"
+                        android:textStyle="bold"
+                        android:layout_weight="10"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:text=":"></TextView>
+
+
+                    <EditText
+                        android:id="@+id/WorkHours"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="50"
+                        android:inputType="number"
+                        android:text="0"></EditText>
+
+
+
+                </LinearLayout>
+                <LinearLayout
+                    android:padding="5dp"
+                    android:layout_weight="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_gravity="end"
+                    android:gravity="end"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:id="@+id/Post"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Post"
+                        android:background="@drawable/button_background"
+                        android:textColor="@color/white"
+                        ></Button>
+
+                </LinearLayout>
+            </LinearLayout>
+</LinearLayout>
+</ScrollView>

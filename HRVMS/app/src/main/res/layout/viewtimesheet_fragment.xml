@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_margin="3dp" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:weightSum="90"
+        android:padding="2dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_weight="20"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:text="Select Your Period"></TextView>
+
+        <Spinner
+            android:id="@+id/TimePeriodSpinner"
+            android:layout_weight="40"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            ></Spinner>
+
+        <ImageButton
+            android:id="@+id/Search"
+            android:layout_width="wrap_content"
+            android:src="@drawable/viewicon"
+            android:tint="@color/black"
+            android:layout_height="wrap_content">
+
+        </ImageButton>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/CustomLinearLayout"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:weightSum="80"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:padding="1dp"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_weight="20"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="From :"
+            android:textColor="@color/black"
+            ></TextView>
+        <TextView
+            android:id="@+id/SelectCustomFromDate"
+            android:layout_weight="20"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Select Custom From Date"
+            android:textColor="@color/black"
+            ></TextView>
+        <TextView
+            android:layout_weight="20"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="To :"
+            android:textColor="@color/black"
+            ></TextView>
+        <TextView
+            android:id="@+id/SelectCustomToDate"
+            android:textColor="@color/black"
+            android:layout_weight="20"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Select Custom To Date"
+            ></TextView>
+    </LinearLayout>
+
+
+    <EditText
+        android:id="@+id/Inputs"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="  Want to Search Anything?"
+        android:drawableLeft="@drawable/search"
+        />
+
+    <ListView
+        android:id="@+id/ListView"
+        android:padding="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+    </ListView>
+
+
+
+</LinearLayout>

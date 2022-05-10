@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:weightSum="3"
+    android:padding="5dp"
+    android:layout_margin="5dp"
+    android:layout_height="match_parent">
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:weightSum="2"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:id="@+id/EmployeeTimesheetLinearLayout"
+            android:layout_width="0dp"
+            android:background="@color/appColour"
+            android:weightSum="2"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:layout_height="100dp">
+
+            <ImageView
+                android:layout_weight="1"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_gravity="center"
+                android:src="@drawable/createicon">
+
+            </ImageView>
+
+            <TextView
+                android:layout_weight="1"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:text="Employee Timesheet"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:textSize="20dp"></TextView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ClientInvoiceLinearLayout"
+            android:layout_width="0dp"
+            android:background="@color/appColour"
+            android:weightSum="2"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:layout_height="100dp">
+
+            <ImageView
+                android:layout_weight="1"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_gravity="center"
+                android:src="@drawable/viewicon">
+
+            </ImageView>
+
+            <TextView
+                android:layout_weight="1"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:text="Client Invoices"
+                android:layout_gravity="center"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:textSize="20dp"></TextView>
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:weightSum="2"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:orientation="horizontal">
+        <LinearLayout
+            android:id="@+id/FindEmployeeLinearLayout"
+            android:layout_width="0dp"
+            android:background="@color/appColour"
+            android:weightSum="2"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:layout_height="100dp">
+
+            <ImageView
+                android:layout_weight="1"
+                android:layout_width="wrap_content"
+                android:tint="@color/white"
+                android:layout_height="0dp"
+                android:layout_gravity="center"
+                android:src="@drawable/employeeicon">
+
+            </ImageView>
+
+            <TextView
+                android:layout_weight="1"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:text="Find Employee"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:layout_gravity="center"
+                android:textSize="20dp"></TextView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:weightSum="2"
+            android:id="@+id/EmployeeClientDetailsLinearLayout"
+            android:layout_width="0dp"
+            android:background="@color/appColour"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:layout_height="100dp">
+
+            <ImageView
+                android:layout_weight="1"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_gravity="center"
+                android:src="@drawable/viewicon">
+
+            </ImageView>
+
+            <TextView
+                android:layout_weight="1"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:text="Employee Client Details"
+                android:textColor="@color/white"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textSize="20dp"></TextView>
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:weightSum="2"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:id="@+id/AddVendorLinearLayout"
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:layout_margin="5dp"
+            android:background="@color/appColour"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:weightSum="2">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:src="@drawable/adding"
+                android:tint="@color/white">
+
+            </ImageView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:text="Add Vendor"
+                android:textColor="@color/white"
+                android:textSize="20dp"
+                android:textStyle="bold"></TextView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/AddClientLinearLayout"
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:background="@color/appColour"
+            android:orientation="vertical"
+            android:weightSum="2">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:src="@drawable/adding"
+                android:tint="@color/white">
+
+            </ImageView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:text="Add Client"
+                android:textColor="@color/white"
+                android:textSize="20dp"
+                android:textStyle="bold"></TextView>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

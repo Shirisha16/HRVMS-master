@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:weightSum="100"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/CreateTimeSheetLinearLayout"
+        android:layout_width="match_parent"
+        android:background="@color/appColour"
+        android:layout_weight="30"
+        android:layout_margin="30dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/createicon">
+
+        </ImageView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Create Timesheet"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textSize="20dp"></TextView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ViewTimeSheetLinearLayout"
+        android:layout_width="match_parent"
+        android:background="@color/appColour"
+        android:layout_weight="30"
+        android:layout_margin="30dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/viewicon">
+
+        </ImageView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="View Timesheet"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textSize="20dp"></TextView>
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/ViewHolidays"
+        android:layout_width="match_parent"
+        android:background="@color/appColour"
+        android:layout_weight="30"
+        android:layout_margin="30dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:tint="@color/white"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/holidays">
+
+        </ImageView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="View Holidays"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textSize="20dp"></TextView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ViewNewsEvents"
+        android:layout_width="match_parent"
+        android:background="@color/appColour"
+        android:layout_weight="30"
+        android:layout_margin="30dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:tint="@color/white"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/news2">
+
+        </ImageView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="News and Events"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textSize="20dp"></TextView>
+
+    </LinearLayout>
+
+
+</LinearLayout>

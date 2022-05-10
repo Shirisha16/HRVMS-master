@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".UserFragments.HolidaysFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/selectCountryView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="10dp"
+            android:layout_margin="10dp">
+            <TextView
+                android:id="@+id/selectCountry"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:text="Select Country"
+                android:textColor="@color/black"
+                android:background="@color/white"
+                android:gravity="center"
+                android:textSize="20sp"
+                android:padding="10dp"
+                android:drawableRight="@drawable/arrowdown">
+            </TextView>
+        </androidx.cardview.widget.CardView>
+
+        <ListView
+            android:layout_below="@+id/selectCountryView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/holidaysList"
+            />
+    </RelativeLayout>
+
+
+    <TextView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@drawable/adding"
+        android:layout_gravity="bottom|right"
+        android:gravity="center"
+        android:id="@+id/addHolidays"
+        android:layout_margin="30dp"></TextView>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

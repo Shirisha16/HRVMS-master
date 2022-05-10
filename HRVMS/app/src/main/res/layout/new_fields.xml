@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        >
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Title :"
+            android:padding="5dp"
+            android:textColor="@color/black"
+            android:textStyle="bold">
+
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:id="@+id/title"
+            android:padding="5dp"
+            android:textColor="@color/black"
+           >
+
+        </TextView>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        >
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Description :"
+            android:padding="5dp"
+            android:textColor="@color/black"
+            android:textStyle="bold">
+
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:id="@+id/description"
+            android:padding="5dp"
+            android:textColor="@color/black"
+            >
+
+        </TextView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="right"
+        android:layout_margin="5dp"
+        >
+        <TextView
+            android:id="@+id/updateNews"
+            android:layout_marginRight="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Update"
+            android:background="@color/button"
+            android:padding="5dp"
+            android:gravity="center_horizontal"
+            android:drawableTop="@drawable/pencil"
+            android:drawableTint="@color/white"
+            android:textColor="@color/white"
+            android:textStyle="bold">
+
+        </TextView>
+        <TextView
+            android:id="@+id/viewEventPhotos"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pictures"
+            android:padding="5dp"
+            android:background="@color/button"
+            android:gravity="center_horizontal"
+            android:drawableTop="@drawable/vision"
+            android:textColor="@color/white"
+            android:textStyle="bold">
+
+        </TextView>
+
+
+    </LinearLayout>
+
+</LinearLayout>

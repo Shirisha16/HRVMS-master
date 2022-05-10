@@ -1,0 +1,212 @@
+<LinearLayout
+    android:padding="5dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+    android:orientation="vertical"
+    android:weightSum="3"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:id="@+id/InvoiceLinearLayout"
+        android:padding="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:weightSum="90"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:layout_weight="30"
+            android:text="Invoice #"></TextView>
+
+        <TextView
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:layout_weight="10"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text=":"></TextView>
+
+
+        <TextView
+            android:id="@+id/Invoice"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="50"
+            ></TextView>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/InvoiceDateLinearLayout"
+        android:padding="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:weightSum="90"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:layout_weight="30"
+            android:text="Invoice Date"></TextView>
+
+        <TextView
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:layout_weight="10"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text=":"></TextView>
+
+
+        <TextView
+            android:id="@+id/InvoiceDate"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="50"
+            ></TextView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/AmountLinearLayout"
+        android:padding="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:weightSum="90"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:layout_weight="30"
+            android:text="Amount">
+
+        </TextView>
+
+        <TextView
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:layout_weight="10"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text=":">
+
+        </TextView>
+
+
+        <TextView
+            android:id="@+id/AmountValue"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="50"
+            >
+
+        </TextView>
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/ClientLinearLayout"
+        android:padding="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:weightSum="90"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:layout_weight="30"
+            android:text="Client">
+
+        </TextView>
+
+        <TextView
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:layout_weight="10"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text=":">
+
+        </TextView>
+
+
+        <TextView
+            android:id="@+id/Client"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="50"
+            >
+
+        </TextView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/EmployeeLinearLayout"
+        android:padding="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:weightSum="90"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:layout_weight="30"
+            android:text="Employee">
+
+        </TextView>
+
+        <TextView
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:layout_weight="10"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text=":">
+
+        </TextView>
+
+
+        <TextView
+            android:id="@+id/Employee"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="50"
+            >
+
+        </TextView>
+
+    </LinearLayout>
+
+
+    <ImageView
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:src="@drawable/working"
+        android:id="@+id/ViewInfo"
+        android:layout_gravity="end">
+    </ImageView>
+</LinearLayout>

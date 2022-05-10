@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    >
+
+
+    <LinearLayout
+        android:id="@+id/TotalInfoLayout"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        android:weightSum="5"
+        android:layout_weight="1">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Date"
+            android:textStyle="bold"
+            android:layout_weight="1.1"
+            android:textColor="@color/black">
+
+        </TextView>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Work Location"
+            android:textStyle="bold"
+            android:layout_weight="1.1"
+            android:textColor="@color/black">
+
+        </TextView>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Project Name"
+            android:textStyle="bold"
+            android:layout_weight="1.1"
+            android:textColor="@color/black">
+
+        </TextView>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Work Hours"
+            android:textStyle="bold"
+            android:layout_weight="1.1"
+            android:textColor="@color/black">
+
+        </TextView>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Del"
+            android:textStyle="bold"
+            android:layout_weight="0.5"
+            android:textColor="@color/black">
+
+        </TextView>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        android:weightSum="5"
+        android:layout_weight="1">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:id="@+id/Date"
+            android:layout_weight="1"
+            android:textColor="@color/black">
+
+        </TextView>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:id="@+id/WorkLocation"
+            android:layout_weight="1"
+            android:textColor="@color/black">
+
+        </TextView>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:id="@+id/ProjectName"
+            android:layout_weight="1"
+            android:textColor="@color/black">
+
+        </TextView>
+
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:id="@+id/WorkedHours"
+            android:layout_weight="1"
+            android:textColor="@color/black">
+
+        </TextView>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Del"
+            android:id="@+id/Delete"
+            android:layout_weight="1"
+            android:textColor="@color/black">
+
+        </TextView>
+
+
+    </LinearLayout>
+
+    </LinearLayout>

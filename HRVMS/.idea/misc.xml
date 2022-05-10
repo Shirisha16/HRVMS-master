@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/New folder/HRVMS-Android-Application--master/HRVMS/app/src/main/res/layout/activity_add_update_delete_employee_details.xml" value="0.234375" />
+        <entry key="..\:/New folder/HRVMS-Android-Application--master/HRVMS/app/src/main/res/layout/activity_admin_slide_menu.xml" value="0.234375" />
+        <entry key="..\:/New folder/HRVMS-Android-Application--master/HRVMS/app/src/main/res/layout/activity_change_password.xml" value="0.234375" />
+        <entry key="..\:/New folder/HRVMS-Android-Application--master/HRVMS/app/src/main/res/layout/activity_detail_create_timesheet_list.xml" value="0.234375" />
+        <entry key="..\:/New folder/HRVMS-Android-Application--master/HRVMS/app/src/main/res/layout/activity_events_gallery.xml" value="0.234375" />
+        <entry key="..\:/New folder/HRVMS-Android-Application--master/HRVMS/app/src/main/res/layout/activity_exit.xml" value="0.234375" />
+        <entry key="..\:/New folder/HRVMS-Android-Application--master/HRVMS/app/src/main/res/layout/activity_login.xml" value="0.234375" />
+        <entry key="..\:/New folder/HRVMS-Android-Application--master/HRVMS/app/src/main/res/layout/activity_splash.xml" value="0.234375" />
+        <entry key="..\:/New folder/HRVMS-Android-Application--master/HRVMS/app/src/main/res/layout/activity_update_employee_details.xml" value="0.234375" />
+        <entry key="..\:/New folder/HRVMS-Android-Application--master/HRVMS/app/src/main/res/layout/activity_user_slide_menu.xml" value="0.234375" />
+        <entry key="..\:/New folder/HRVMS-Android-Application--master/HRVMS/app/src/main/res/layout/add_update_delete_employee_details_adapter.xml" value="0.234375" />
+        <entry key="..\:/New folder/HRVMS-Android-Application--master/HRVMS/app/src/main/res/layout/add_workinginfo_dialog_activity.xml" value="0.234375" />
+        <entry key="..\:/New folder/HRVMS-Android-Application--master/HRVMS/app/src/main/res/layout/addclient_fragment.xml" value="0.234375" />
+        <entry key="..\:/New folder/HRVMS-Android-Application--master/HRVMS/app/src/main/res/layout/addemployee_fragment.xml" value="0.234375" />
+        <entry key="..\:/New folder/HRVMS-Android-Application--master/HRVMS/app/src/main/res/layout/addnew.xml" value="0.234375" />
+        <entry key="..\:/New folder/HRVMS-Android-Application--master/HRVMS/app/src/main/res/layout/addvendor_fragment.xml" value="0.234375" />
+        <entry key="..\:/New folder/HRVMS-Android-Application--master/HRVMS/app/src/main/res/layout/admin_home_activity.xml" value="0.234375" />
+        <entry key="..\:/New folder/HRVMS-Android-Application--master/HRVMS/app/src/main/res/layout/app_bar_slide_menu.xml" value="0.234375" />
+        <entry key="..\:/New folder/HRVMS-Android-Application--master/HRVMS/app/src/main/res/layout/childeventimages.xml" value="0.234375" />
+        <entry key="..\:/New folder/HRVMS-Android-Application--master/HRVMS/app/src/main/res/layout/childmultipleadatper.xml" value="0.234375" />
+        <entry key="..\:/New folder/HRVMS-Android-Application--master/HRVMS/app/src/main/res/layout/clientinvoice_adapter.xml" value="0.234375" />
+        <entry key="..\:/New folder/HRVMS-Android-Application--master/HRVMS/app/src/main/res/layout/clientinvoice_fragment.xml" value="0.234375" />
+        <entry key="..\:/New folder/HRVMS-Android-Application--master/HRVMS/app/src/main/res/layout/content_slide_menu.xml" value="0.234375" />
+        <entry key="..\:/New folder/HRVMS-Android-Application--master/HRVMS/app/src/main/res/layout/country_items.xml" value="0.234375" />
+        <entry key="..\:/New folder/HRVMS-Android-Application--master/HRVMS/app/src/main/res/layout/country_layout.xml" value="0.234375" />
+        <entry key="..\:/New folder/HRVMS-Android-Application--master/HRVMS/app/src/main/res/layout/createtimesheet_adapter.xml" value="0.234375" />
+        <entry key="..\:/New folder/HRVMS-Android-Application--master/HRVMS/app/src/main/res/layout/createtimesheet_fragment.xml" value="0.234375" />
+        <entry key="..\:/New folder/HRVMS-Android-Application--master/HRVMS/app/src/main/res/layout/employeeclientdetails_adapter.xml" value="0.234375" />
+        <entry key="..\:/New folder/HRVMS-Android-Application--master/HRVMS/app/src/main/res/layout/employeeclientdetails_fragment.xml" value="0.234375" />
+        <entry key="..\:/New folder/HRVMS-Android-Application--master/HRVMS/app/src/main/res/layout/employeetimesheet_adapter.xml" value="0.234375" />
+        <entry key="..\:/New folder/HRVMS-Android-Application--master/HRVMS/app/src/main/res/layout/employeetimesheet_fragment.xml" value="0.234375" />
+        <entry key="..\:/New folder/HRVMS-Android-Application--master/HRVMS/app/src/main/res/layout/employeeworkinfo_fragment.xml" value="0.234375" />
+        <entry key="..\:/New folder/HRVMS-Android-Application--master/HRVMS/app/src/main/res/layout/findemployee_adapter.xml" value="0.234375" />
+        <entry key="..\:/New folder/HRVMS-Android-Application--master/HRVMS/app/src/main/res/layout/findemployee_fragment.xml" value="0.234375" />
+        <entry key="..\:/New folder/HRVMS-Android-Application--master/HRVMS/app/src/main/res/layout/fragment_add_timesheet.xml" value="0.234375" />
+        <entry key="..\:/New folder/HRVMS-Android-Application--master/HRVMS/app/src/main/res/layout/fragment_holidays.xml" value="0.234375" />
+        <entry key="..\:/New folder/HRVMS-Android-Application--master/HRVMS/app/src/main/res/layout/holidays_items.xml" value="0.234375" />
+        <entry key="..\:/New folder/HRVMS-Android-Application--master/HRVMS/app/src/main/res/layout/imageview.xml" value="0.234375" />
+        <entry key="..\:/New folder/HRVMS-Android-Application--master/HRVMS/app/src/main/res/layout/nav_header_admin_slide_menu.xml" value="0.234375" />
+        <entry key="..\:/New folder/HRVMS-Android-Application--master/HRVMS/app/src/main/res/layout/nav_header_slide_menu.xml" value="0.234375" />
+        <entry key="..\:/New folder/HRVMS-Android-Application--master/HRVMS/app/src/main/res/layout/new_fields.xml" value="0.234375" />
+        <entry key="..\:/New folder/HRVMS-Android-Application--master/HRVMS/app/src/main/res/layout/spinner_layout.xml" value="0.234375" />
+        <entry key="..\:/New folder/HRVMS-Android-Application--master/HRVMS/app/src/main/res/layout/test1.xml" value="0.234375" />
+        <entry key="..\:/New folder/HRVMS-Android-Application--master/HRVMS/app/src/main/res/layout/update_holidays.xml" value="0.234375" />
+        <entry key="..\:/New folder/HRVMS-Android-Application--master/HRVMS/app/src/main/res/layout/uploadimage.xml" value="0.234375" />
+        <entry key="..\:/New folder/HRVMS-Android-Application--master/HRVMS/app/src/main/res/layout/user_holidays_items.xml" value="0.234375" />
+        <entry key="..\:/New folder/HRVMS-Android-Application--master/HRVMS/app/src/main/res/layout/user_home_activity.xml" value="0.234375" />
+        <entry key="..\:/New folder/HRVMS-Android-Application--master/HRVMS/app/src/main/res/layout/viewtimesheet_fragment.xml" value="0.234375" />
+        <entry key="..\:/New folder/HRVMS-Android-Application--master/HRVMS/app/src/main/res/layout/viewtimesheetadapter.xml" value="0.234375" />
+        <entry key="..\:/Projects/HRVMS-Android-Application--master/HRVMS/app/src/main/res/layout/activity_admin_slide_menu.xml" value="0.234375" />
+        <entry key="..\:/Projects/HRVMS-Android-Application--master/HRVMS/app/src/main/res/layout/activity_events_gallery.xml" value="0.234375" />
+        <entry key="..\:/Projects/HRVMS-Android-Application--master/HRVMS/app/src/main/res/layout/activity_exit.xml" value="0.234375" />
+        <entry key="..\:/Projects/HRVMS-Android-Application--master/HRVMS/app/src/main/res/layout/activity_login.xml" value="0.234375" />
+        <entry key="..\:/Projects/HRVMS-Android-Application--master/HRVMS/app/src/main/res/layout/activity_splash.xml" value="0.234375" />
+        <entry key="..\:/Projects/HRVMS-Android-Application--master/HRVMS/app/src/main/res/layout/activity_user_slide_menu.xml" value="0.234375" />
+        <entry key="..\:/Projects/HRVMS-Android-Application--master/HRVMS/app/src/main/res/layout/addnew.xml" value="0.234375" />
+        <entry key="..\:/Projects/HRVMS-Android-Application--master/HRVMS/app/src/main/res/layout/employeetimesheet_fragment.xml" value="0.234375" />
+        <entry key="..\:/Projects/HRVMS-Android-Application--master/HRVMS/app/src/main/res/layout/imageview.xml" value="0.234375" />
+        <entry key="..\:/Projects/HRVMS-Android-Application--master/HRVMS/app/src/main/res/layout/uploadimage.xml" value="0.234375" />
+        <entry key="..\:/Projects/HRVMS-Android-Application--master/HRVMS/app/src/main/res/layout/user_holidays_items.xml" value="0.234375" />
+        <entry key="..\:/Projects/HRVMS-Android-Application--master/HRVMS/app/src/main/res/layout/user_home_activity.xml" value="0.234375" />
+        <entry key="..\:/sagar/HRVMS-Android-Application--master/HRVMS/app/src/main/res/layout/activity_add_update_delete_employee_details.xml" value="0.209375" />
+        <entry key="..\:/sagar/HRVMS-Android-Application--master/HRVMS/app/src/main/res/layout/activity_admin_slide_menu.xml" value="0.209375" />
+        <entry key="..\:/sagar/HRVMS-Android-Application--master/HRVMS/app/src/main/res/layout/activity_change_password.xml" value="0.209375" />
+        <entry key="..\:/sagar/HRVMS-Android-Application--master/HRVMS/app/src/main/res/layout/activity_events_gallery.xml" value="0.209375" />
+        <entry key="..\:/sagar/HRVMS-Android-Application--master/HRVMS/app/src/main/res/layout/activity_update_employee_details.xml" value="0.209375" />
+        <entry key="..\:/sagar/HRVMS-Android-Application--master/HRVMS/app/src/main/res/layout/activity_user_slide_menu.xml" value="0.209375" />
+        <entry key="..\:/sagar/HRVMS-Android-Application--master/HRVMS/app/src/main/res/layout/add_update_delete_employee_details_adapter.xml" value="0.209375" />
+        <entry key="..\:/sagar/HRVMS-Android-Application--master/HRVMS/app/src/main/res/layout/add_workinginfo_dialog_activity.xml" value="0.209375" />
+        <entry key="..\:/sagar/HRVMS-Android-Application--master/HRVMS/app/src/main/res/layout/addemployee_fragment.xml" value="0.209375" />
+        <entry key="..\:/sagar/HRVMS-Android-Application--master/HRVMS/app/src/main/res/layout/addnew.xml" value="0.209375" />
+        <entry key="..\:/sagar/HRVMS-Android-Application--master/HRVMS/app/src/main/res/layout/admin_home_activity.xml" value="0.209375" />
+        <entry key="..\:/sagar/HRVMS-Android-Application--master/HRVMS/app/src/main/res/layout/app_bar_slide_menu.xml" value="0.209375" />
+        <entry key="..\:/sagar/HRVMS-Android-Application--master/HRVMS/app/src/main/res/layout/employeeclientdetails_fragment.xml" value="0.209375" />
+        <entry key="..\:/sagar/HRVMS-Android-Application--master/HRVMS/app/src/main/res/layout/fragment_holidays.xml" value="0.209375" />
+        <entry key="..\:/sagar/HRVMS-Android-Application--master/HRVMS/app/src/main/res/layout/imageview.xml" value="0.209375" />
+        <entry key="..\:/sagar/HRVMS-Android-Application--master/HRVMS/app/src/main/res/layout/spinner_layout.xml" value="0.209375" />
+        <entry key="..\:/sagar/HRVMS-Android-Application--master/HRVMS/app/src/main/res/layout/update_holidays.xml" value="0.209375" />
+        <entry key="..\:/sagar/HRVMS-Android-Application--master/HRVMS/app/src/main/res/layout/user_holidays_items.xml" value="0.209375" />
+        <entry key="..\:/sagar/HRVMS-Android-Application--master/HRVMS/app/src/main/res/layout/user_home_activity.xml" value="0.209375" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:weightSum="100"
+    android:layout_height="match_parent">
+
+    <ListView
+        android:layout_weight="90"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        >
+
+    </ListView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        android:weightSum="9"
+        android:layout_weight="10">
+
+        <ImageView
+            android:id="@+id/Add"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="3"
+            android:src="@drawable/adding">
+
+        </ImageView>
+
+    </LinearLayout>
+
+</LinearLayout>

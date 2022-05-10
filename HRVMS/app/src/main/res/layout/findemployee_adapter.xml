@@ -1,0 +1,131 @@
+<LinearLayout
+    android:padding="5dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+    android:orientation="vertical"
+    android:weightSum="3"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:id="@+id/EmpCodeLinearLayout"
+        android:padding="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:weightSum="90"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:layout_weight="30"
+            android:text="Emp Code"></TextView>
+
+        <TextView
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:layout_weight="10"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text=":"></TextView>
+
+
+        <TextView
+            android:id="@+id/EmpCode"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="50"
+            android:text="Emp Code"
+            ></TextView>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/FirstNameLinearLayout"
+        android:padding="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:weightSum="90"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:layout_weight="30"
+            android:text="First Name"></TextView>
+
+        <TextView
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:layout_weight="10"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text=":"></TextView>
+
+
+        <TextView
+            android:id="@+id/FirstName"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="50"
+            android:text="First Name"
+            ></TextView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/LastNameLinearLayout"
+        android:padding="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:weightSum="90"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:layout_weight="30"
+            android:text="Last Name">
+
+        </TextView>
+
+        <TextView
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:layout_weight="10"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text=":">
+
+        </TextView>
+
+
+        <TextView
+            android:id="@+id/LastName"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="50"
+            android:text="Last Name"
+            >
+
+        </TextView>
+
+    </LinearLayout>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:src="@drawable/working"
+        android:id="@+id/WorkingInfo"
+        android:layout_gravity="end">
+    </ImageView>
+</LinearLayout>

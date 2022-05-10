@@ -1,0 +1,326 @@
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:weightSum="9"
+    android:padding = "5dp"
+    android:layout_margin="3dp"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:id="@+id/EmployeeNameLinearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:weightSum="90"
+        android:padding="2dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:layout_weight="30"
+            android:text="Employee"></TextView>
+
+        <TextView
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:layout_weight="10"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text=":"></TextView>
+
+
+        <TextView
+            android:id="@+id/Employee"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="50"
+            ></TextView>
+
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:padding="2dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:weightSum="90"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:layout_weight="30"
+            android:text="Client"></TextView>
+
+        <TextView
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:layout_weight="10"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text=":"></TextView>
+
+
+        <Spinner
+            android:id="@+id/ClientSpinner"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="50"
+            ></Spinner>
+
+
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:padding="2dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:weightSum="90"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:layout_weight="30"
+            android:text="Primary Vendor"></TextView>
+
+        <TextView
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:layout_weight="10"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text=":"></TextView>
+
+
+        <Spinner
+            android:id="@+id/PrimaryVendorSpinner"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="50"
+            ></Spinner>
+
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:padding="2dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:weightSum="90"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:layout_weight="30"
+            android:text="Secondary Vendor"></TextView>
+
+        <TextView
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:layout_weight="10"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text=":"></TextView>
+
+
+        <Spinner
+            android:id="@+id/SecondaryVendorSpinner"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="50"
+            ></Spinner>
+
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:padding="2dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:weightSum="90"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:layout_weight="30"
+            android:text="Third Vendor"></TextView>
+
+        <TextView
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:layout_weight="10"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text=":"></TextView>
+
+
+        <Spinner
+            android:id="@+id/ThirdVendorSpinner"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="50"
+            ></Spinner>
+
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="90"
+        android:layout_weight="1"
+        android:padding="2dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:layout_weight="30"
+            android:text="From"></TextView>
+
+        <TextView
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:layout_weight="10"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text=":"></TextView>
+
+
+        <TextView
+            android:id="@+id/FromDate"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="50"
+            android:text="Select From date"
+            ></TextView>
+    </LinearLayout>
+    <LinearLayout
+        android:padding="2dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="90"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:layout_weight="30"
+            android:text="To"></TextView>
+
+        <TextView
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:layout_weight="10"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text=":"></TextView>
+
+
+        <TextView
+            android:id="@+id/ToDate"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="50"
+            android:text="Select To Date"
+            ></TextView>
+    </LinearLayout>
+    <LinearLayout
+        android:padding="2dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="90"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:layout_weight="30"
+            android:text="Hourly Rate"></TextView>
+
+        <TextView
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:layout_weight="10"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text=":"></TextView>
+
+
+        <EditText
+            android:id="@+id/DialogHourlyRate"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="50"
+            ></EditText>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_margin="50dp"
+        >
+
+        <TextView
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:text="Submit"
+            android:id="@+id/Submit"
+            android:background="@color/appColour"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:layout_marginRight="10dp"
+            android:padding="5dp"/>
+
+        <TextView
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:text="Cancel"
+            android:padding="5dp"
+            android:textColor="@color/white"
+            android:id="@+id/Cancel"
+            android:background="@color/appColour"
+            android:layout_marginLeft="10dp"
+            android:layout_gravity="center"
+            android:gravity="center"/>
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,763 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical" android:layout_width="match_parent"
+        android:weightSum="10"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:padding="5dp"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_weight="2"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:padding="2dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="90"
+                android:layout_weight="1"
+                
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_weight="30"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    
+                    
+                    android:text="Company Name"
+                    android:textStyle="bold"
+                    android:textColor="@color/black">
+
+                </TextView>
+
+                <TextView
+                    android:layout_weight="10"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    
+                    
+                    android:text=":"
+                    android:textStyle="bold"
+                    android:textColor="@color/black">
+
+                </TextView>
+
+                <EditText
+                    android:id="@+id/CompanyName"
+                    android:layout_weight="50"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:text=""
+                    android:textColor="@color/black">
+
+                </EditText>
+
+            </LinearLayout>
+            <LinearLayout
+                android:padding="2dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="90"
+                android:layout_weight="1"
+                
+                
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_weight="30"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    
+                    
+                    android:text="Email"
+                    android:textStyle="bold"
+                    android:textColor="@color/black">
+
+                </TextView>
+
+                <TextView
+                    android:layout_weight="10"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    
+                    
+                    android:text=":"
+                    android:textStyle="bold"
+                    android:textColor="@color/black">
+
+                </TextView>
+
+                <EditText
+                    android:id="@+id/EmailAddress"
+                    android:layout_weight="50"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    
+                    
+                    android:text=""
+                    android:textColor="@color/black">
+
+                </EditText>
+
+            </LinearLayout>
+        </LinearLayout>
+
+            <LinearLayout
+                android:padding="5dp"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_weight="8"
+                android:weightSum="3"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:padding="2dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:weightSum="90"
+                    android:layout_weight="1.5"
+                    
+                    
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_weight="30"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        
+                        
+                        android:text="Address"
+                        android:textStyle="bold"
+                        android:textColor="@color/black">
+
+                    </TextView>
+
+                    <TextView
+                        android:layout_weight="10"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        
+                        
+                        android:text=""
+                        android:textStyle="bold"
+                        android:textColor="@color/black">
+
+                    </TextView>
+
+                    <ImageView
+                        android:id="@+id/AddressAdd"
+                        android:layout_weight="50"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        
+                        
+                        android:src="@drawable/arrowdown"
+                        >
+
+                    </ImageView>
+
+                    <ImageView
+                        android:id="@+id/AddressSub"
+                        android:visibility="gone"
+                        android:layout_weight="50"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        
+                        
+                        android:src="@drawable/arrowup"
+                        >
+
+                    </ImageView>
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:id="@+id/AddressLinearLayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    >
+
+
+                    <LinearLayout
+                        android:padding="2dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:weightSum="90"
+                        android:layout_weight="1"
+                        
+                        
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_weight="30"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            
+                            
+                            android:text="Street"
+                            android:textStyle="bold"
+                            android:textColor="@color/black">
+
+                        </TextView>
+
+                        <TextView
+                            android:layout_weight="10"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            
+                            
+                            android:text=":"
+                            android:textStyle="bold"
+                            android:textColor="@color/black">
+
+                        </TextView>
+
+                        <EditText
+                            android:id="@+id/Street"
+                            android:layout_weight="50"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            
+                            
+                            android:text=""
+                            android:textColor="@color/black">
+
+                        </EditText>
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:padding="2dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:weightSum="90"
+                        android:layout_weight="1"
+                        
+                        
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_weight="30"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            
+                            
+                            android:text="City"
+                            android:textStyle="bold"
+                            android:textColor="@color/black">
+
+                        </TextView>
+
+                        <TextView
+                            android:layout_weight="10"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            
+                            
+                            android:text=":"
+                            android:textStyle="bold"
+                            android:textColor="@color/black">
+
+                        </TextView>
+
+                        <EditText
+                            android:id="@+id/City"
+                            android:layout_weight="50"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:digits="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ "
+                            
+                            android:text=""
+                            android:textColor="@color/black">
+
+                        </EditText>
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:padding="2dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:weightSum="90"
+                        android:layout_weight="1"
+                        
+                        
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_weight="30"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            
+                            
+                            android:text="State"
+                            android:textStyle="bold"
+                            android:textColor="@color/black">
+
+                        </TextView>
+
+                        <TextView
+                            android:layout_weight="10"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            
+                            
+                            android:text=":"
+                            android:textStyle="bold"
+                            android:textColor="@color/black">
+
+                        </TextView>
+
+                        <EditText
+                            android:id="@+id/State"
+                            android:layout_weight="50"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:digits="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ "
+                            
+                            android:text=""
+                            android:textColor="@color/black">
+
+                        </EditText>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:padding="2dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:weightSum="90"
+                        android:layout_weight="1"
+                        
+                        
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_weight="30"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            
+                            
+                            android:text="Zip"
+                            android:textStyle="bold"
+                            android:textColor="@color/black">
+
+                        </TextView>
+
+                        <TextView
+                            android:layout_weight="10"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:text=":"
+                            android:textStyle="bold"
+                            android:textColor="@color/black">
+
+                        </TextView>
+
+                        <EditText
+                            android:id="@+id/Zip"
+                            android:layout_weight="50"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:inputType="number"
+                            android:maxLength="6"
+                            android:text=""
+                            android:textColor="@color/black">
+
+                        </EditText>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:padding="2dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:weightSum="90"
+                        android:layout_weight="1"
+                        
+                        
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_weight="30"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            
+                            
+                            android:text="Country"
+                            android:textStyle="bold"
+                            android:textColor="@color/black">
+
+                        </TextView>
+
+                        <TextView
+                            android:layout_weight="10"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            
+                            
+                            android:text=":"
+                            android:textStyle="bold"
+                            android:textColor="@color/black">
+
+                        </TextView>
+
+                        <EditText
+                            android:id="@+id/Country"
+                            android:layout_weight="50"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:digits="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ "
+                            android:text=""
+                            android:textColor="@color/black">
+
+                        </EditText>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:padding="2dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:weightSum="90"
+                        android:layout_weight="1"
+                        
+                        
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_weight="30"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            
+                            
+                            android:text="Phone"
+                            android:textStyle="bold"
+                            android:textColor="@color/black">
+
+                        </TextView>
+
+                        <TextView
+                            android:layout_weight="10"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            
+                            
+                            android:text=":"
+                            android:textStyle="bold"
+                            android:textColor="@color/black">
+
+                        </TextView>
+
+                        <EditText
+                            android:id="@+id/AddressPhone"
+                            android:layout_weight="50"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:inputType="number"
+                            android:maxLines="1"
+                            android:text=""
+                            android:maxLength="10"
+                            android:textColor="@color/black">
+
+                        </EditText>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:padding="2dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:weightSum="90"
+                        android:layout_weight="1"
+                        
+                        
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_weight="30"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            
+                            
+                            android:text="Fax"
+                            android:textStyle="bold"
+                            android:textColor="@color/black">
+
+                        </TextView>
+
+                        <TextView
+                            android:layout_weight="10"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            
+                            
+                            android:text=":"
+                            android:textStyle="bold"
+                            android:textColor="@color/black">
+
+                        </TextView>
+
+                        <EditText
+                            android:id="@+id/Fax"
+                            android:layout_weight="50"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:inputType="number"
+                            android:maxLength="10"
+                            android:text=""
+                            android:textColor="@color/black">
+
+                        </EditText>
+
+                    </LinearLayout>
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:padding="2dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:weightSum="90"
+                    android:layout_weight="1.5"
+                    
+                    
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_weight="30"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        
+                        
+                        android:text="Contact Info"
+                        android:textStyle="bold"
+                        android:textColor="@color/black">
+
+                    </TextView>
+
+                    <TextView
+                        android:layout_weight="10"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        
+                        
+                        android:text=""
+                        android:textStyle="bold"
+                        android:textColor="@color/black">
+
+                    </TextView>
+
+                    <ImageView
+                        android:id="@+id/ContactInfoAdd"
+                        android:layout_weight="50"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        
+                        
+                        android:src="@drawable/arrowdown"
+                        >
+
+                    </ImageView>
+
+                    <ImageView
+                        android:id="@+id/ContactInfoSub"
+                        android:visibility="gone"
+                        android:layout_weight="50"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        
+                        
+                        android:src="@drawable/arrowup"
+                        >
+
+                    </ImageView>
+
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:id="@+id/ContactInfoLinearLayout"
+                    android:padding="2dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:weightSum="90"
+                    android:layout_weight="1"
+                    
+                    
+                    android:orientation="vertical">
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        >
+
+
+                        <LinearLayout
+                            android:padding="2dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:weightSum="90"
+                            android:layout_weight="1"
+                            
+                            
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:layout_weight="30"
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                
+                                
+                                android:text="Contact Name"
+                                android:textStyle="bold"
+                                android:textColor="@color/black">
+
+                            </TextView>
+
+                            <TextView
+                                android:layout_weight="10"
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                
+                                
+                                android:text=":"
+                                android:textStyle="bold"
+                                android:textColor="@color/black">
+
+                            </TextView>
+
+                            <EditText
+                                android:id="@+id/ContactInfoContactName"
+                                android:layout_weight="50"
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:digits="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ "
+                                android:text=""
+                                android:textColor="@color/black">
+
+                            </EditText>
+
+                        </LinearLayout>
+                        <LinearLayout
+                            android:padding="2dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:weightSum="90"
+                            android:layout_weight="1"
+                            
+                            
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:layout_weight="30"
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                
+                                
+                                android:text="Phone"
+                                android:textStyle="bold"
+                                android:textColor="@color/black">
+
+                            </TextView>
+
+                            <TextView
+                                android:layout_weight="10"
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                
+                                
+                                android:text=":"
+                                android:textStyle="bold"
+                                android:textColor="@color/black">
+
+                            </TextView>
+
+                            <EditText
+                                android:id="@+id/ContactInfoPhone"
+                                android:layout_weight="50"
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                android:maxLength="10"
+                                android:inputType="number"
+                                android:text=""
+                                android:textColor="@color/black">
+
+                            </EditText>
+
+                        </LinearLayout>
+                        <LinearLayout
+                            android:padding="2dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:weightSum="90"
+                            android:layout_weight="1"
+                            
+                            
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:layout_weight="30"
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                
+                                
+                                android:text="Email"
+                                android:textStyle="bold"
+                                android:textColor="@color/black">
+
+                            </TextView>
+
+                            <TextView
+                                android:layout_weight="10"
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                
+                                
+                                android:text=":"
+                                android:textStyle="bold"
+                                android:textColor="@color/black">
+
+                            </TextView>
+
+                            <EditText
+                                android:id="@+id/ContactInfoEmail"
+                                android:layout_weight="50"
+                                android:layout_width="0dp"
+                                android:layout_height="match_parent"
+                                
+                                
+                                android:text=""
+                                android:textColor="@color/black">
+
+                            </EditText>
+
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/Submit"
+                    android:textColor="@color/white"
+                    android:background="@drawable/button_background"
+                    android:layout_margin="30dp"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:text="Submit">
+
+                </Button>
+            </LinearLayout>
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UserFragments.NewsFragments">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/newsListView" />
+
+
+
+    <TextView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_gravity="bottom|right"
+        android:layout_marginBottom="90dp"
+        android:layout_marginRight="30dp"
+        android:id="@+id/addNews"
+        android:backgroundTint="@color/button"
+        android:background="@drawable/adding">
+
+    </TextView>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

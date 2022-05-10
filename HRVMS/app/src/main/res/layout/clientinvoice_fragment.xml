@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:padding = "5dp"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:visibility="gone"
+        android:padding="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="90"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:layout_weight="30"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textSize="20dp"
+            android:text="From"></TextView>
+
+        <TextView
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:layout_weight="30"
+            android:textSize="20dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=":"></TextView>
+
+
+        <TextView
+            android:id="@+id/SelectFromDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="30"
+            android:textSize="20dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="Select From Date"></TextView>
+    </LinearLayout>
+    <LinearLayout
+        android:visibility="gone"
+        android:padding="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="90"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:layout_weight="30"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textSize="20dp"
+            android:text="To"></TextView>
+
+        <TextView
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:layout_weight="30"
+            android:textSize="20dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=":"></TextView>
+
+
+        <TextView
+            android:id="@+id/SelectToDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="30"
+            android:textSize="20dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="Select To Date"></TextView>
+    </LinearLayout>
+
+    <ImageButton
+        android:visibility="gone"
+        android:id="@+id/SearchButton"
+        android:layout_width="wrap_content"
+        android:src="@drawable/viewicon"
+        android:tint="@color/appColour"
+        android:layout_gravity="end"
+        android:layout_height="wrap_content">
+
+    </ImageButton>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="  Want to Search Anything?"
+        android:drawableLeft="@drawable/search"
+        android:id="@+id/Search">
+
+    </EditText>
+    <ListView
+        android:id="@+id/ListView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+    </ListView>
+
+
+</LinearLayout>

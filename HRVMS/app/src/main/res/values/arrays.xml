@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="timeperiod">
+        <item></item>
+        <item>3 months</item>
+        <item>6 months</item>
+        <item>9 months</item>
+        <item>Custom Date</item>
+    </string-array>
+
+    <string-array name="Sex">
+        <item>Male</item>
+        <item>Female</item>
+        <item>Other</item>
+    </string-array>
+
+    <string-array name="MartialStatus">
+        <item>Single</item>
+        <item>Married</item>
+        <item>Divorced</item>
+        <item>Separated</item>
+        <item>Widowed</item>
+
+    </string-array>
+
+    <string-array name="VisaType">
+        <item>H1B</item>
+        <item>EAD</item>
+        <item>US Citizen</item>
+        <item>Green Card</item>
+        <item>TN</item>
+    </string-array>
+
+
+</resources>
